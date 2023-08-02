@@ -1,0 +1,130 @@
+:root {
+  --primary: #cedd28;
+  --bg: #010101;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+  /* min-height: 5000px; */
+}
+
+h1 {
+  text-align: center;
+  padding-top: 11rem;
+}
+h2 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.main-container {
+  min-height: 100vh;
+  /* display: flex; */
+  background-image: url("./bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+}
+
+form input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+
+  color: var(--bg);
+}
+
+.assign-url {
+  padding-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 800;
+}
+
+a:hover {
+  color: aliceblue;
+}
+.credit {
+  text-align: left;
+  margin-top: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form button {
+  background-color: #010101;
+  color: wheat;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+#shorten-btn:hover {
+  border: 1px solid #8f94fb;
+}
+
+#long-url {
+  padding: 0.5rem;
+  color: black;
+}
+
+#short-url-container {
+  margin-top: 20px;
+}
+
+#short-url-container p {
+  text-align: center;
+  color: #fff;
+}
+
+#short-url {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease-in-out;
+}
+
+#short-url a {
+  /* word-wrap: break-word; */
+  margin-right: 10px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+#copy-btn {
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 16px;
+  background: none;
+}
+
+#copy-btn :hover {
+  fill: white;
+}
+
+h1 span {
+  color: #000000;
+}
